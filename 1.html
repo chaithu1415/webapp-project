@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html> 
+<head>
+<title>Home Page with Login and Sign up</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="1.css">
+</head>
+<body> 
+
+  <div style= "background-color:whitesmoke">
+    <br><br>
+  </div>
+
+  <div>
+	 <h1> CG COMMUNITY
+		  <div class="first"> One stop solution for all your curls</div>
+	 </h1>
+
+	 <div class="topnav">
+	   <a class="active" href="1.html">Home</a>
+	   <a href="identify.html">Identify Your Hair Type</a>
+	   <a href="routine.html">CG Routine</a>
+	   <a href="curly tales.php">Curly Tales</a>
+	   <a href="products.html">CG Friendly Products</a>
+	   <a href="review1.php">Product Review</a>
+	   <a href="buy.php">Exchange your products</a>
+    <a href="cart.php"><i class="fa fa-shopping-cart" style="font-size:20px"></i> Cart</a>
+    <a href="orders.php"> Orders</a>
+    <a href="sell items.php">Sold items</a>
+	   
+     <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="login1.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+    </div>
+
+    <div>
+      <center><img src="dont give up.jpg" style="width:500px; height:600px;"></center>
+    </div>
+    
+    <div class="container">
+      <div>
+      <center>
+      <h4 style="font-family:  Marker Felt, fantasy;font-size: 40px;color:Indigo;"> Log in </h4>
+      <div style="font-family: Marker Felt, fantasy; font-size: 25px; color:DeepPink;"> Welcome to the CG Community!</div>
+      <b style="font-family: Marker Felt, fantasy; font-size: 25px; color:DeepPink;">Please login to confirm your registration</b>
+    </center>
+
+      
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+        <span class="psw"> <a href="#"> Dont remember?</a>
+     </span>   
+
+    <div class="container" style="background-color:#f1f1f1">
+      
+    </div>
+  </div>
+  
+    
+  </form>
+ </div>
+
+ <script>
+
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+</script>
+
+<button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Sign Up</button>
+
+<div id="id02" class="modal">
+  
+  <form class="modal-content animate" action="sign up.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+    </div>
+
+    <div>
+      <center><img src="sign up 1.jpg" style="width:500px; height:700px;"></center>
+    </div>
+    
+    <div class="container">
+      <div>
+      <center>
+      <h4 style="font-family:  Marker Felt, fantasy;font-size: 40px;color:Indigo;">Sign Up</h4>
+      <div style="font-family: Marker Felt, fantasy; font-size: 25px; color:DeepPink;"> Welcome to the CG Community!</div>
+    </center>
+      
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Register</button>
+
+    <div class="container" style="background-color:#f1f1f1">
+      
+    </div>
+  </div>
+   </div>
+    </div>
+  </form>
+</div>
+
+<script>
+
+// Get the modal
+var modal = document.getElementById('id02');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+	  
+  </div>
+
+
+  <hr>
+  <div class="row">
+
+     <div class="about">
+        <h2 style="font-family:Snell Roundhand, cursive; "><a href="about.html">About</a></h2>
+        <p>
+          Cg Community is an online platform where we will provide the complete review of the products and provide the best solutions to you! 
+        </p>
+      </div>
+  <div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 4</div>
+      <img src="identify2.png" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 4</div>
+      <img src="identify3.png" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+     <div class="numbertext">3 / 3</div>
+     <img src="idenitfy4.png" style="width:100%">
+   </div>
+
+  <div class="mySlides fade">
+       <div class="numbertext">4 / 4</div>
+       <img src="identify5.png" style="width:100%">
+     </div>
+
+</div>
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+  </div>
+
+  <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+  </script>
+
+    </div>
+    <br><br>
+
+  <div class="row1">
+      <center>
+
+      <div class="column">
+        <div style="width:300px;" class="options">
+         <a style="font-size:20px; font-family:Bookman, URW Bookman L, serif;  font-weight:bold; align-items:center; color:DeepPink;" href="https://docs.google.com/forms/d/e/1FAIpQLSfjtpXV5nQh2623ZQQb0dDMKMgPGYa-s72KY7u9RRbl9q38Gg/viewform?usp=sf_link">Test your curly girl knowledge</a>
+
+         <a  style="font-size:18px; color:white; background-color:Indigo;">This will help you to know basics about hair</a>
+       </div>
+      </div>
+
+      <div class="column">
+        <div style="width:300px;" class="options">
+         <a style="font-size:20px; font-weight:bold; font-family:Bookman, URW Bookman L, serif; align-items:center; color:DeepPink;" href="jarggons.html">Basics</a>
+         <a  style="font-size:18px; color:white; background-color:Indigo;">Learn the basic CG jarggons and get started with your routine</a>
+       </div>
+      </div>
+
+      <div class="column">
+        <div style="width:300px;" class="options">
+         <a style="font-size:20px; font-weight:bold; font-family:Bookman, URW Bookman L, serif; align-items:center; color:DeepPink;" href="diy.html">DIY Hair Masks</a>
+         <a  style="font-size:18px; color:white; background-color:Indigo;">Get easy and natural DIY hair mask ideas that can be done at home.</a>
+       </div>
+      </div>
+    </center>
+  </div>
+
+
+    <br>
+    <h3><span style="font-family: Bookman, URW Bookman L, serif; font-size: 18px;">Everything You Need To Know About CG Method</span></h3>
+    <br>
+    
+    <div class="row1">
+      <center>
+      <div class="column">
+        <img src="Loraine.jpg" style="width:75%;height:50%">
+    <div class=intro>
+      <h2><span style="color:deeppink;font-size:40px;font-weight:bold;font-family:Bookman, URW Bookman L, serif;">1</span>
+          What is the curly girl method?</h2>
+      <p>The Curly Girl Method is the brainchild of Loraine Massey, who literally wrote the book on it with Curly Girl: The Handbook. It is a method of haircare meant to help women and men find their hair's true texture and maximize natural waves and curls. Basically, it's re-training both yourself on what your hair actually needs and your hair to fall into its natural curl pattern.</p>
+    </div>
+  </div>
+   <div class="column">
+        <img src="before-after.jpg" style="width:75%;height:50%">
+    <div class=intro>
+      <h2><span style="color:deeppink;font-size:40px;font-weight:bold;font-family:Bookman, URW Bookman L, serif;">2</span>
+          Who is the Curly Girl Method good for?</h2>
+      <p>The method is good for anyone who wants to set their curly hair free and see just how far their waves could really go if they stopped damaging their hair with heat tools, shampoos, and specific haircare ingredients. In most cases, flat or very loose curls and waves can become fuller and more defined.The Curly Girl Method is good for anyone who wants to truly dedicate their energy to changing their hair habits forever.</p>
+    </div>
+  </div>
+  <div class="column">
+        <img src="start1.jpg" style="width:75%;height:50%">
+    <div class=intro>
+      <h2><span style="color:deeppink;font-size:40px;font-weight:bold;font-family:Bookman, URW Bookman L, serif;">3</span>
+          How can I start the Curly Girl Method?</h2>
+      <p>The best thing to do would be to pick up the book, join a Facebook group, and start asking around to find out how people maintain their system. Then, it's crucial to learn all the lingo (terms such as "hair porosity" and "curl type").It's most certainly a commitment, so make sure you're ready.You can (and should) ween your hair off of your normal shampoo pattern. You can also pick up a sulfate-free shampoo or a co-wash to start you on your journey.</p>
+    </div>
+  </div>
+</center>
+</div>
+
+<br><br>
+
+  <div class="row1">
+    <center>
+      <div class="column">
+
+       <img src="donts3.jpg" style="width:75%;height:310px;">
+    <div class=intro>
+      <h2><span style="color:deeppink;font-size:40px;font-weight:bold;font-family:Bookman, URW Bookman L, serif;">4</span>
+          A few Curly Girl Method don'ts:</h2>
+      <p style="text-align: justify;"><li>Don't use shampoo (at all).</li>
+<li>Don't use heat styling tools (bye-bye, curling iron).</li>
+<li>Don't use combs and brushes (let your hair be free).</li>
+<li>Don't use non-water soluble formulas (they will be too heavy).</li>
+<li>Don't use anything containing silicones, alcohol, or fragrance (oh the damage they can cause!).</li>
+</p>
+    </div>
+  </div>
+   <div class="column">
+        <img src="dos.jpg" style="width:75%;height:50%">
+    <div class=intro>
+      <h2><span style="color:deeppink;font-size:40px;font-weight:bold;font-family:Bookman, URW Bookman L, serif;">5</span>
+          Your Curly Girl Method dos</h2>
+      <li>Do find conditioners and co-washes with gentle cleansing ingredients such as decyl polyglucose (it helps clean without stripping).</li>
+<li>Do use products with rich emollients like shea butter and proteins like wheat (this helps to restore your hair follicles).</li>
+<li>Do use styling gel with ingredients like PVP (these will help bring a little bounce to your curls and tame frizz).</li>
+    </div>
+  </div>
+  <div class="column">
+        <img src="time.jpg" style="width:80%;height:310px;">
+    <div class=intro>
+      <h2><span style="color:deeppink;font-size:40px;font-weight:bold;font-family:Bookman, URW Bookman L, serif;">6</span>
+          Does it take long to see results using the Curly Girl Method?</h2>
+      <p>It totally depends on your individual strands. Just look around on Instagram and you'll see plenty of progress photos from users who are already on the system.Give yourself at least three months on the system to really see how it works for you, and make sure to take progress photos along the way so you can both share your journey and see just how far your hair has come.</p>
+    </div>
+  </div>
+</div>
+</center>
+</div>
+<hr>
+  <br>
+  <br>
+
+    <div style="background-color:indigo;text-align:center;padding:10px;margin-top:7px;color:deeppink;">&copyCgCommunity.co </div>
+
+  </div>
+
+</body>
+</html>
+
+

@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="1.css">
+
+        <script src="store1.js" ></script>
+<style>
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 260px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+</style>
+</head>
+<body>
+
+
+   <div style= "background-color:whitesmoke">
+    <br><br>
+  </div>
+
+  <div>
+   <h1> CG COMMUNITY
+      <div class="first"> One stop solution for all your curls</div>
+   </h1>
+
+   <div class="topnav">
+     <a class="active" href="1.html">Home</a>
+     <a href="identify.html">Identify Your Hair Type</a>
+     <a href="routine.html">CG Routine</a>
+     <a href="curly tales.html">Curly Tales</a>
+     <a href="products.html">CG Friendly Products</a>
+     <a href="review.html">Product Review</a>
+     <a href="buy.html">Exchange your products</a>
+    <a href="cart.html"><i class="fa fa-shopping-cart" style="font-size:20px"></i> Cart</a>
+
+     
+     <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="login1.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+    </div>
+
+    <div>
+      <center><img src="dont give up.jpg" style="width:500px; height:600px;"></center>
+    </div>
+    
+    <div class="container">
+      <div>
+      <center>
+      <h4 style="font-family:  Marker Felt, fantasy;font-size: 40px;color:Indigo;"> Log in </h4>
+      <div style="font-family: Marker Felt, fantasy; font-size: 25px; color:DeepPink;"> Welcome to the CG Community!</div>
+      <b style="font-family: Marker Felt, fantasy; font-size: 25px; color:DeepPink;">Please login to confirm your registration</b>
+    </center>
+
+      
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+        <span class="psw"> <a href="#"> Dont remember?</a>
+     </span>   
+
+    <div class="container" style="background-color:#f1f1f1">
+      
+    </div>
+  </div>
+  
+    
+  </form>
+ </div>
+
+ <script>
+
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+</script>
+
+<button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Sign Up</button>
+
+<div id="id02" class="modal">
+  
+  <form class="modal-content animate" action="/sign up.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+    </div>
+
+    <div>
+      <center><img src="sign up 1.jpg" style="width:500px; height:700px;"></center>
+    </div>
+    
+    <div class="container">
+      <div>
+      <center>
+      <h4 style="font-family:  Marker Felt, fantasy;font-size: 40px;color:Indigo;">Sign Up</h4>
+      <div style="font-family: Marker Felt, fantasy; font-size: 25px; color:DeepPink;"> Welcome to the CG Community!</div>
+    </center>
+      
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Register</button>
+
+    <div class="container" style="background-color:#f1f1f1">
+      
+    </div>
+  </div>
+   </div>
+    </div>
+  </form>
+</div>
+
+<script>
+
+// Get the modal
+var modal = document.getElementById('id02');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+    
+  </div>
+
+
+
+  <hr>
+  <div class="row">
+
+     <div class="about">
+        <h2 style="font-family:Snell Roundhand, cursive; ">Buy Products</h2>
+        <p>
+          Want to buy CG friendly products at a lesser cost? Buy from your fellow community members!
+        </p>
+      </div>
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1</div>
+      <img src="buy1.jpg" style="width:100%">
+    </div>
+
+</div>
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    
+  </div>
+  <br>
+
+
+
+  <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+  </script>
+
+
+<center>
+     <div class="column">
+        <div style="width:1400px;" class="options">
+         <a style="font-size:20px;  text-align:center; font-family:Bookman, URW Bookman L, serif;  font-weight:bold; align-items:center; color:DeepPink;" href="sell.php">Want to sell your CG friendly producst?</a>
+         <a  style="font-size:18px; color:white; background-color:Indigo;">Some times we buy new products after spending a bomb only to realise that it doesnt suit our hair. However, there are many whom the product suits.Simply sell it to them at a lower price!</a>
+       </div>
+      </div>
+  </center>
+          </div>
+
+
+
+<br><br><br>
+<br><br><br>
+
+<br><br><br>
+
+  <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Album 1</span>
+                    <img class="shop-item-image" src="Images/Album 1.png">
+                    <div class="card">
+                      <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+                    </div>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$12.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Album 2</span>
+                    <img class="shop-item-image" src="Images/Album 2.png">
+                    <div class="card">
+                      <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+                    </div>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$14.99</span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Album 3</span>
+                    <img class="shop-item-image" src="Images/Album 3.png">
+                    <div class="card">
+                      <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+                    </div>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$9.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Album 4</span>
+                    <img class="shop-item-image" src="Images/Album 4.png">
+                    <div class="card">
+                      <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+                    </div>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$19.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+<br><br>
+ <section class="container content-section">
+            <h2 class="section-header"><center>CART</center></h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$0</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button"><a href="checkout.html" style="color:white;">PURCHASE</a></button>
+        </section>
+
+
+
+
+
+</center></div>
+
+<div style="background-color:indigo;text-align:center;padding:10px;margin-top:7px;color:deeppink;">&copyCgCommunity.co </div>
+
+
+</body>
+</html>
